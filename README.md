@@ -6,4 +6,4 @@
 
 * [wt, n629d, f627y].inpcrd: Initial atom coordinates  for the 3 model systems.
 
-* [wt, n629d, f627y].restart.[coor, xsc, vel]: Restart file for the 3 model systems. These files provides the state of the 3 systems after equilibration.
+* [wt, n629d, f627y].restart.[coor, xsc, vel]: Restart file for the 3 model systems. These files provide the state of the 3 systems after equilibration.
