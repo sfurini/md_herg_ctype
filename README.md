@@ -8,4 +8,4 @@
 
 * [wt, n629d, f627y].restart.[coor, xsc, vel]: Restart file for the 3 model systems. These files provide the state of the 3 systems after equilibration.
 
-* [wt, n629d, f627y].replica[1-8].pdb: Atomic coordinates of the 3 model systems after 1 microsecond of MD simulation. Coordinates of 8 independent replicas are included for each model system.
+* [wt, n629d, f627y].replica[1-8].pdb: Atomic coordinates of the 3 model systems after 1 microsecond of MD simulation. Coordinates of 8 independent simulations, replica[1-8], are included for each model system.
