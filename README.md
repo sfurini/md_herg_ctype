@@ -23,8 +23,7 @@ The folder contain simulations of the hERG for:
 
 For each setup, it is included:
 * initial system configuration
-* input files
-* topology
+* input files and topologies for MD simulations with GROMACS
 * coordinates and velocities at the end of the MD trajectory
 
 Results of the simulations are presented in: https://www.biorxiv.org/content/10.64898/2026.09.02.748792v1
