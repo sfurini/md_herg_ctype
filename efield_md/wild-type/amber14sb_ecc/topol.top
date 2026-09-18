@@ -1,0 +1,37 @@
+;
+;	File 'topol.top' was generated
+;	By user: maria (1005)
+;	On host: bubble
+;	At date: Fri Mar 21 16:57:14 2025
+;
+;	This is a standalone topology file
+;
+;	Created by:
+;	                    :-) GROMACS - gmx pdb2gmx, 2022.5 (-:
+;	
+;	Executable:   /share/apps/gromacs/gromacs-2022.5/bin/gmx
+;	Data prefix:  /share/apps/gromacs/gromacs-2022.5
+;	Working dir:  /data/maria/K_amber/9CHP/TEST
+;	Command line:
+;	  gmx pdb2gmx -f step5_input_amber_SF_nolip.pdb -ter -o conf.pdb
+;	Force field was read from current directory or a relative path - path added.
+;
+
+; Include forcefield parameters
+#include "toppar/forcefield.itp"
+#include "toppar/PRO.itp"
+#include "toppar/POPC.itp"
+#include "toppar/ions.itp"
+#include "toppar/tip3p.itp"
+
+[ system ]
+; Name
+Title
+
+[ molecules ]
+; Compound        #mols
+PRO            	    1
+POPC              158
+K                 146
+CL                150
+SOL             13719
